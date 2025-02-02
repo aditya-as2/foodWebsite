@@ -1,0 +1,323 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.carousel{
+  width: 1100px;
+  height: 420px;
+  background-image: url("../img/carousel.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+#panel{
+  width: 230px;
+  height: 320px;
+  background-color: #fff;
+  position:static;
+  margin-left: 750px;
+  border-radius: 0 0 15px 15px;
+  box-sizing: border-box;
+  padding: 35px;
+}
+
+#btn{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  margin-top: -135px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.navBtn{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 53, 166);
+  color: white;
+}
+.navBtn:hover{
+  background-color: rgb(0, 68, 213);
+  cursor: pointer;
+}
+.pg{
+  margin-top: 155px;
+  margin-left: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+.dot{
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 4px;
+}
+.d1{
+  background-color: rgb(0, 53, 166);
+}
+.panelBtn{
+  color: rgb(7, 58, 168);
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  border: solid 3px rgb(7, 58, 168);
+  border-radius: 18px;
+  margin-top: 5px;
+  margin-left: -1px;
+  font-weight: bold;
+}
+
+.panelBtn:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 53, 166);
+  cursor: pointer;
+}
+
+.categories{
+  background-color: rgb(255, 247, 226);
+  width: 100vw;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.categories h2{
+  padding: 0px 225px 0px 217px;
+  display: inline;
+  margin: 0;
+  color: rgb(21, 21, 21);
+  font-size: 27px;
+}
+
+#moreCat{
+  margin-left: 395px;
+  color: rgb(7, 58, 168);
+  font-size: 15px;
+  text-decoration: none;
+}
+.cats{
+  display: grid;
+  grid-template-columns: repeat(6,150px);
+  grid-template-rows: 180px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.cts{
+  border: rgb(162, 162, 162) solid 2px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  color: rgb(34, 34, 34);
+  height: 130px;
+  cursor: pointer;
+}
+.cts:hover{
+  background-color: #f5f5f5;
+}
+.cts img{
+  width: 80px;
+}
+.cts p{
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+.myAct{
+  width: 1100px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+.myAct h2{
+  color: rgb(21, 21, 21);
+  font-size: 27px;
+}
+.recPanel{
+  display: flex;
+  flex-direction: row;
+  background-color: #eeeff1;
+  border-radius: 10px;
+}
+.recOrd{
+  width: 80%;
+  padding: 15px;
+}
+.recTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recTitle h3{
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
+.bal{
+  width: 20%;
+  background-color: rgb(0, 30, 96);
+  color: white;
+  padding: 0 40px;
+  border-radius: 0 10px 10px 0;
+}
+.balVal h2{
+  color: white;
+  font-size: 29px;
+  margin: 40px 0 0 0;
+}
+.balVal > p, .balInfo > * >p{
+  margin: 5px 0;
+}
+.balInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.phead{
+  font-size: 22px;
+  margin: 0;
+}
+.balInfo .phead + p{
+  font-size: 13px;
+}
+#sep{
+  font-size: 46px;
+  color: rgb(215, 215, 215);
+  font-weight: 100;
+}
+#btn2{
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9px;
+}
+.navBtn2,.navBtnGrey{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  font-size: 19px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  color: white;
+}
+.navBtn2{
+  background-color: rgb(0, 53, 166);
+}
+.navBtn2:hover{
+  background-color: rgb(0, 68, 213);
+  cursor: pointer;
+}
+.navBtnGrey{
+  background-color: rgb(158, 158, 158);
+}
+.ordItems{
+  margin: 10px 0 0 7px;
+  width: 98%;
+  height: 73%;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 20px;
+  padding-bottom: 5px;
+}
+.ord{
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 15px 15px 5px 15px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(6,auto);
+  grid-template-areas: 
+  "s1 s1 s2"
+  "s3 s3 s4"
+  ". . ."
+  "s5 s5 s5"
+  ". . ."
+  "s6 s7 s7";
+  width: 216.5px;
+  height: 130px;
+}
+
+.ord:hover{
+  background-color: #f8f8f8;
+}
+.s1{
+  color: rgb(10, 46, 124);
+  font-weight: bold;
+  grid-area: s1;
+  font-size: 15px;
+}
+.s2{
+  font-weight: bold;
+  grid-area: s2;
+  font-size: 15px;
+}
+.s3{
+  grid-area: s3;
+  font-size: 12px;
+  color: rgb(63, 63, 63);
+}
+.s4{
+  grid-area: s4;
+  font-size: 12px;
+  color: rgb(63, 63, 63);
+  padding-left: 12px;
+}
+.s5{
+  grid-area: s5;
+  font-size: 13px;
+  border-bottom: rgb(172, 172, 172) solid 1px;
+  color: rgb(63, 63, 63);
+
+}
+.s6{
+  grid-area: s6;
+  font-size: 9px;
+  border-radius: 15px;
+  background-color: #ffd987;
+  text-align: center;
+  align-content: center;
+  color: #694a07;
+  font-weight: bold;
+  width: 68px;
+  height: 20px;
+}
+.s7{
+  text-align: right;
+  align-content: center;
+  height: 20px;
+  grid-area: s7;
+  font-size: 13px;
+  width: fit-content;
+  width: 150px;
+  color: rgb(52, 52, 52);
+
+}
+.d2{
+  color: rgb(0, 82, 0);
+  background-color: rgb(161, 255, 161);
+}
+.d3{
+  color: rgb(0, 0, 123);
+  background-color: rgb(181, 191, 255);
+}
+.paid{
+  padding-left: 39px;
+  color: rgb(0, 135, 0);
+}
