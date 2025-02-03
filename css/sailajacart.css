@@ -136,12 +136,8 @@ span{
   border-radius: 50px;
   background-color: rgb(245, 245, 248);
 }
-.delete-btn{
-  font-size: 20px;
-  color: #2b2929;
-  border: transparent;
-}
-.delete-btn button:hover{
+
+.fa-trash:hover{
 background-color: #9cabf0;
 }
 /**---------------ICONS-----------------**/
