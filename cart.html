@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart - Food Website</title>
     <link rel="stylesheet" href="css/ashritha.css">
+    <link rel="stylesheet" href="css/sailajacart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -13,6 +15,158 @@
     <div class="container">
         <div class="cart">
             <!-- Sailaja -->
+                 <!---------------------------------------------------HEADER-------------------------------->
+    <div class="header">
+        <label id="ss" select">Cart</label>
+        <select id="select"><option>0098234567</option>
+            <option>0098234567</option>
+            <option>0098234567</option>
+        </select>
+
+        <label id="tt" for="text">Order ID</label>
+        <input type="text" id="text" value="0098234567">
+
+        <label id="dd" for="date-picker">Date</label>
+        <input type="date" class="date-picker" value="2023-08-22">
+        
+        <button class="more-options">&#x22EE;</button>
+    </div>
+    <div class="container">
+        <!---------------------------SEARCH-BAR---------------------------------------------->
+        <div class="searchbar">
+            <input type="text"  placeholder="Search by Item Name or Item ID or Brand">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="https://google.com">Quick Add Items</a>
+            <a href="https://google.com">Upload CSV</a>
+            <span class="items">10 Items</span>
+            <i class="fa-solid fa-bars"></i> 
+            <i class="fa-solid fa-qrcode"></i>
+            <!--<div class="actions">
+        <button>Quick Add Items</button>
+        <button>Upload CSV</button>
+            </div>-->
+        </div>
+        <!---------------------------------------------TABLE------------------------------------>
+        <table class="tb">
+            <thead>
+            <tr class="r1">
+                <th>Item</th>
+                <th>Brand</th>
+                <th>Pack/Size</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total Value</th>
+                <th> </th>
+            </tr>
+            </thead>
+            <tr class="r2">
+                <td class="i1" >#86234<br> <br>Beef Tenderloin Prime</td>
+                <td>Winn Meat</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+                
+            </tr>
+            <tr class="r3">
+                <td class="i1" >#234323<br> <br>Butter Stick Soy Free</td>
+                <td>Earth Balance</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+                
+            </tr>
+            <tr class="r4">
+                <td class="i1" >#4565451<br> <br>Lemonade Frozen Condensed</td>
+                <td>Creative Bevblends</td>
+                <td>9/64 oz</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="r5">
+                <td class="i1" >#393339<br> <br>Easy Whole Easy Eggs</td>
+                <td>Papettis</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>4</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="r6">
+                <td class="i1">#123487<br> <br>Coconut Snowflate Bulk</td>
+                <td>Snowflake</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>2</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="r7">
+                <td class="i1">#223123<br> <br>Egg Fresh Shell Medium USDA</td>
+                <td>Ellington Farms</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>6</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="r8">
+                <td class="i1">#123458<br> <br>Flour Hotel & Restaurant</td>
+                <td>Ellington Farms</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>9</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="r9">
+                <td class="i1">#123490<br> <br>Abita Root Beer</td>
+                <td>Abita</td>
+                <td>1/10 lbs</td>
+                <td class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+        </table>
+    </div>
         </div>
         <div class="frequent-section">
             <!-- Ashritha -->

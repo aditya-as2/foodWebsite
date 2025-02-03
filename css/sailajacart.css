@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3ecec;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+/**-----------------------------------HEADER------------------------------------**/
+.header{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #1e2631;
+  justify-content:space-between;
+  
+
+}
+.header input,
+.header select,
+.header .date-picker {
+  background-color: #faf8f8;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #080606;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  
+}
+
+.header .more-options {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: #070808;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header .more-options:hover {
+  background-color: #525050;
+}
+.header label{
+  margin-right: 5px;
+}
+select{
+  position: relative;
+  right:70px;
+}
+#tt{
+  position: relative;
+  left: 70px;
+}
+#dd{
+  position: relative;
+  left: 70px;
+}
+#ss, #dd, #tt{
+  color: wheat;
+}
+/**---------------------------------------SEARCH-BAR----------------------**/
+.searchbar{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.searchbar input {
+  width: 30%;
+  padding: 10px ;
+  border-radius: 20px;
+  border: none;
+  background-color:  #cfd6f5;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(58, 58, 80);
+}
+a:hover{
+  text-decoration: underline;
+}
+.items{
+  border: transparent;
+  text-align: right;
+  
+  padding: 10px;
+  position: relative;
+  left: 20%;
+}
+.tb{
+  width: 100%;
+  height: 100vh;
+  border-collapse: collapse; 
+  overflow: hidden;
+  
+}
+
+.r1{
+  text-align: left;
+  background-color: rgb(136, 172, 187);
+}
+.tb th, .tb td{
+  border-bottom: 1px solid gray;
+  padding: 12px 15px;
+  
+}
+.tb tr:nth-child(even){
+  background-color: rgb(209, 216, 216);
+}
+.quantity button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(136, 172, 187);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quantity button:hover {
+  background-color: #555;
+}
+span{
+  border: 1px solid gray;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 50px;
+  background-color: rgb(245, 245, 248);
+}
+.delete-btn{
+  font-size: 20px;
+  color: #2b2929;
+  border: transparent;
+}
+.delete-btn button:hover{
+background-color: #9cabf0;
+}
+/**---------------ICONS-----------------**/
+.fa-bars{
+  position: relative;
+  left: 17%;
+}
+.fa-bars:hover{
+  background-color: #9cabf0;
+}
+.fa-qrcode{
+  position: relative;
+  left: 14%;
+}
+.fa-qrcode:hover{
+  background-color: #9cabf0;
+}
+.i1{
+  font-weight: bold;
+  color: rgb(31, 31, 49);
+}
+.fa-magnifying-glass{
+  position: relative;
+  left: -7%;
+}
+.fa-magnifying-glass:hover{
+background-color: #9cabf0;
+}
