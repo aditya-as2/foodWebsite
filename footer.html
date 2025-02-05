@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .footer {
+            background-color: #eaf3fd;
+            /* padding: 40px 20px; */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-column {
+            max-width: 200px;
+        }
+        .footer-column h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-column ul li {
+            margin-bottom: 5px;
+        }
+        .footer-column ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            /* text-decoration: none; */
+            font-size: 18px;
+            /* display: inline-block; */
+        }
+        .social-icons a i {
+            margin-right: 5px;
+        }
+        .subscribe input {
+            padding: 5px;
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        .subscribe button {
+            padding: 7px 15px;
+            border: none;
+            background-color: rgb(23, 23, 107);
+            color: rgb(252, 230, 230);
+            cursor: pointer;
+        }
+        .footer-bottom {
+            text-align: center;
+            /* padding: 10px; */
+            background-color: #ddd;
+        }
+        .subscribe button:hover {
+    background-color: #6faff8;  
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  <!--for social icons-->
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="#">About Ben E. Keith</a></li>
+                <li><a href="#">Our Brands</a></li>
+                <li><a href="#">News Feed</a></li>
+                <li><a href="#">Eat Local Eat Often</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>OUR SERVICES</h3>
+            <ul>
+                <li><a href="#">MenuMax</a></li>
+                <li><a href="#">HOST Services</a></li>
+                <li><a href="#">Culinary Resource Team</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>CUSTOMER SUPPORT</h3>
+            <ul>
+                <li><a href="#">Contact your Sales Rep</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Site Feedback</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>POLICY & TERMS</h3>
+            <ul>
+                <li><a href="#">License Agreement</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>FOLLOW US</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>SIGN UP</h3>
+            <div class="subscribe">
+                <input type="email" placeholder="Enter your email">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        Copyright © 2025 Ben E. Keith Co. All Rights Reserved.
+    </div>
+</body>
+</html>
